@@ -34,3 +34,19 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+.out/*
+
+# Mac OS Junk
+.DS_Store
+
+# Rider
+.idea
+
+# Plugins
+Assets/Plugins/*
+
+# Magic Leap Assets
+Assets/MagicLeap/*
+
+# Built file
+*.mpk
