@@ -44,9 +44,11 @@ sysinfo.txt
 
 # Plugins
 Assets/Plugins/*
+Assets/Plugins.meta
 
 # Magic Leap Assets
 Assets/MagicLeap/*
+Assets/MagicLeap.meta
 
 # Built file
 *.mpk
