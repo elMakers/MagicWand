@@ -50,5 +50,9 @@ Assets/Plugins.meta
 Assets/MagicLeap/*
 Assets/MagicLeap.meta
 
+# Unity Post-Processing Pipeline
+Assets/PostProcessing.meta
+Assets/PostProcessing/*
+
 # Built file
 *.mpk
