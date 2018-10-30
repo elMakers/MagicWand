@@ -91,6 +91,15 @@ namespace MagicKit
         {
             InitializeController();
         }
+        
+        private void Stop()
+        {
+            if (_controller != null)
+            {
+                MLInput.Stop();
+                _controller = null;
+            }
+        }
 
         private void Update()
         {
