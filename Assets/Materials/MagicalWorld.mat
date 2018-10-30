@@ -7,14 +7,13 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: MagicalWorld
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 3bab6ca9a9dae4b0689fe8ddc124f778, type: 3}
   m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _EMISSION
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
-  stringTagMap:
-    RenderType: Transparent
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -66,6 +65,7 @@ Material:
     - _Metallic: 0.108
     - _Mode: 3
     - _OcclusionStrength: 1
+    - _Outline: 0.0005
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -75,3 +75,4 @@ Material:
     m_Colors:
     - _Color: {r: 0.21293157, g: 0.8207547, b: 0.6617111, a: 0.007843138}
     - _EmissionColor: {r: 0.029411765, g: 0.0627451, b: 0.06127451, a: 1}
+    - _OutlineColor: {r: 0.18382871, g: 0.6436204, b: 0.764151, a: 0.003921569}
