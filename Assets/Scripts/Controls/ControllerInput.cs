@@ -87,12 +87,12 @@ namespace MagicKit
 
         // ------ MonoBehaviour Methods ------
 
-        private void Start()
+        private void OnEnable()
         {
             InitializeController();
         }
         
-        private void Stop()
+        private void OnDisable()
         {
             if (_controller != null)
             {
