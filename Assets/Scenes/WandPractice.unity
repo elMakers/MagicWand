@@ -190,7 +190,6 @@ GameObject:
   - component: {fileID: 820350808}
   - component: {fileID: 820350807}
   - component: {fileID: 820350810}
-  - component: {fileID: 820350811}
   m_Layer: 0
   m_Name: Wand
   m_TagString: Untagged
@@ -204,7 +203,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 820350806}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3aecfcfed6e6e044492ac67f62bc0a3c, type: 3}
   m_Name: 
@@ -257,21 +256,6 @@ MonoBehaviour:
   Projectile: {fileID: 1903809054772366, guid: b42a66251c1e248b38d8a197af2da281, type: 2}
   SpawnLocation: {fileID: 458344452}
   Speed: 200
---- !u!114 &820350811
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 820350806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3aecfcfed6e6e044492ac67f62bc0a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerValue: 0
-  orientation: {x: 0, y: 0, z: 0, w: 0}
-  position: {x: 0, y: 0, z: 0}
-  _updateTransform: 1
 --- !u!1001 &1680147259
 Prefab:
   m_ObjectHideFlags: 0
@@ -5079,9 +5063,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 132d6842000044828bb1521a8fe287eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MinimumSpeed: 0
-  MaximumSpeed: 2
-  MaximumCount: 50
+  MinimumSpeed: 0.01
+  MaximumSpeed: 0.1
+  MaximumCount: 100
 --- !u!1 &1758898939
 GameObject:
   m_ObjectHideFlags: 0
