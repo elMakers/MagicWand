@@ -1,0 +1,12 @@
+{
+	"global" : {},
+	"materials" : 
+	[
+		{
+			"albedo" : "Icon/Model/MagicWand_Albedo.png",
+			"blendmode" : "opaque",
+			"name" : "com_elmakers_magicwand_MainMat",
+			"shaderName" : "UnlitTextured"
+		}
+	]
+}
