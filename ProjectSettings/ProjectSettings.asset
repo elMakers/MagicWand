@@ -674,6 +674,7 @@ PlayerSettings:
     m_VersionName: 
   luminPrivilege:
   - WorldReconstruction
+  luminMinimumPlatformAPILevel: 2
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
   cloudProjectId: 
