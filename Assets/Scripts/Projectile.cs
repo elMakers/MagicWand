@@ -25,12 +25,15 @@ public class Projectile : MonoBehaviour
 		}
 		
 		// Stop the particle trail
-		var particles = ParticleSystem.GetComponent<ParticleSystem>();
-		particles.Stop();
+		var particles = ParticleSystem.GetComponents<ParticleSystem>();
+		foreach (var particle in particles)
+		{
+			particle.Stop();
 
-		// Unparent the particles, give them a chance to finish
-		particles.transform.parent = null;
-		Destroy(particles.gameObject, particles.main.duration);
+			// Unparent the particles, give them a chance to finish
+			particle.transform.parent = null;
+			Destroy(particle.gameObject, particle.main.duration);
+		}
 		Destroy(gameObject);
 	}
 }

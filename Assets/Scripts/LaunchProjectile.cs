@@ -19,6 +19,5 @@ public class LaunchProjectile : MonoBehaviour {
 	{
 		GameObject spawned = Instantiate(Projectile, _input.position, Quaternion.identity);
 		spawned.GetComponent<Rigidbody>().AddForce(SpawnLocation.transform.forward * Speed);
-		Debug.Log("LAUNCH from " + _input.position);
 	}
 }
