@@ -15,7 +15,6 @@ public class ParticleSpeed : MonoBehaviour
 	
 	// State
 	private Vector3 _lastLocation;
-	
 
 	// Use this for initialization
 	void Start ()
@@ -25,7 +24,8 @@ public class ParticleSpeed : MonoBehaviour
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update () 
+	{
 		if (_lastLocation == Vector3.zero)
 		{
 			_lastLocation = _body.position;
