@@ -310,7 +310,7 @@ MonoBehaviour:
   MinimumSpeed: 0.2
   StopSpeed: 0.01
   MaximumSpeed: 3
-  UseTrigger: 0
+  UseTrigger: 1
   MaximumCount: 50
   ParticleSystem: {fileID: 1726934319}
 --- !u!1001 &984980637
